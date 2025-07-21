@@ -6,7 +6,7 @@ export const AppRoutes = () => {
         <Routes>
             <Route
                 path='/pagina-inicial'
-                element={<Button>Teste</Button>}
+                element={<Button variant='contained' color='primary'>Teste</Button>}
             />
             <Route
                 path='*'
